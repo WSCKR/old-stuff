@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+body.dark-theme {
+	background-color: #333;
+	color: #eee;
+}
+
+#content {
+    text-align: center;
+}
+
+#h1 {
+    height: 25px;
+}
+
+#h2 {
+    height: 17px;
+}
+
+#h3 {
+    height: 15px;
+}
+
+#ul {
+    list-style-type: none;
+}
+
+#ul li {
+    display: inline;
+}
+
+#logos {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+}
