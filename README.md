@@ -20,4 +20,4 @@ Kaynooo#0904 on Discord because they inspired me to get back into JavaScript (my
 
 ## Other
 
-You can contact me on Discord mainly at Whisker#666
+You can contact me on Discord mainly at Whisker#6666
