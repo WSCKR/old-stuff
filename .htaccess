@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [NE,R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?domain\.com$
+RewriteRule !^subfolder/ /subfolder%{REQUEST_URI}  [L]
